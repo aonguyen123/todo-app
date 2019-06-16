@@ -1,0 +1,91 @@
+.loadingsmall
+{
+    margin: 0;
+    padding: 0;
+}
+.loadingsmall ul
+{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px;
+    width: 200px;
+    height: 80px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    position: relative;
+}
+.loadingsmall ul li
+{
+    border: 1px solid blue;   
+    list-style: none;
+    border-radius: 50%;
+    border: 15px solid #000;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    animation: loadingsmall 3s infinite alternate;
+    transform: translate(-50%, -50%);
+}
+.loadingsmall ul li:nth-child(1)
+{
+    width: 20px;
+    height: 20px;
+    border-color: #ff0000;
+    animation-delay: .2s;
+}
+.loadingsmall ul li:nth-child(2)
+{
+    width: 40px;
+    height: 40px;
+    border-color: #ff7f00;
+    animation-delay: .4s;
+}
+.loadingsmall ul li:nth-child(3)
+{
+    width: 60px;
+    height: 60px;
+    border-color: #ffff00;
+    animation-delay: .6s;
+}
+.loadingsmall ul li:nth-child(4)
+{
+    width: 80px;
+    height: 80px;
+    border-color: #00ff00;
+    animation-delay: .8s;
+}
+.loadingsmall ul li:nth-child(5)
+{
+    width: 100px;
+    height: 100px;
+    border-color: #0000ff;
+    animation-delay: 1s;
+}
+.loadingsmall ul li:nth-child(6)
+{
+    width: 120px;
+    height: 120px;
+    border-color: #4b0082;
+    animation-delay: 1.2s;
+}
+.loadingsmall ul li:nth-child(7)
+{
+    width: 140px;
+    height: 140px;
+    border-color: #9400d3;
+    animation-delay: 1.4s;
+}
+@keyframes loadingsmall
+{
+    0%
+    {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    100%
+    {
+        transform: translate(-50%, -50%) rotate(315deg);
+    }
+}
