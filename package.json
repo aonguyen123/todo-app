@@ -16,10 +16,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "react-scripts build && gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "proxy": "https://todo-nodejs.herokuapp.com",
   "eslintConfig": {
