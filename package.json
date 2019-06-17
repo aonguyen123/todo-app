@@ -3,7 +3,10 @@
   "name": "todos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aonguyen123.github.io/todo-app",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "8.12.0"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
